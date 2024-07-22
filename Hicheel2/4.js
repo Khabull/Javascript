@@ -1,5 +1,6 @@
-let B=2
-let C=3
-let D=4
+let B=prompt("тоо1")
+let C=prompt("тоо2")
+let D=prompt("тоо3")
+console.log("A="B*C-D " илэрхийллийн хариу")
 A=B*C-D
-console.log(A);
+console.log(" илэрхийллийн хариу" A);
