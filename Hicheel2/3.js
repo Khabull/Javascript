@@ -1,5 +1,5 @@
-let a="cola" 
-let b="water"
+let a=prompt("cola")
+let b=prompt("water")
 let c=a
 a=b
 b=c
