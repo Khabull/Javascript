@@ -1,5 +1,5 @@
-let day=1
-let time=10
-const udur=24
-totalTime=day*udur+time
+let day= Number(prompt("Өдөр"));
+let time= Number(prompt("Цаг"));
+// const udur=24
+let totalTime=day*24 + time
 console.log(totalTime);
