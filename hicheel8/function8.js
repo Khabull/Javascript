@@ -5,5 +5,7 @@ console.log(unsortedArray);
 
 const sortedArray = (unsortedArray) => {
 for
-};
+}
 console.log(sortedArray);
+
+
