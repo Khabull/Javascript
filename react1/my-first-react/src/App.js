@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MyFirstComp from "./components/MyFirstComp";
+import Box from "./components/Box";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Box text="BOX 1" coloR="1" />
+      <Box text="BOX 2" coloR="2" />
+      <Box text="BOX 3" coloR="3" />
+      <p>Wlcome to My first React</p>
+      <MyFirstComp />
+      <MyFirstComp />
     </div>
   );
 }

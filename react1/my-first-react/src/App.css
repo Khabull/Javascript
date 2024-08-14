@@ -1,4 +1,24 @@
-.App {
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  margin: 20px;
+}
+.box2 {background-color: green;}
+.box3 {background-color: red;}
+.boxgreen {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin: 20px;
+}
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +55,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
