@@ -1,4 +1,21 @@
-.box {
+.product-card{
+height: 430px;  
+width: 310px;
+background-color: aliceblue;
+text-align: center;
+}
+
+.product-details{
+align-items: center;
+}
+.App{
+  display: flex;
+  
+}
+
+
+
+/* 3 өөр өнгөөр хэвлэдэг хайрцагны css.box {
   height: 100px;
   width: 100px;
   background-color: gold;
@@ -12,7 +29,7 @@
   background-color: green;
   margin: 20px;
 }
-
+ */
 
 
 
